@@ -1,0 +1,80 @@
+body{
+    line-height:0 !important;
+}
+#modal{
+    background:url(images/BG.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+
+}
+.modal-body{
+    width:auto;
+    height:auto;
+    line-height:1;
+    padding:20px;
+    font-size:20px;
+}
+
+.pixels{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background-color: lightblue;
+}
+.GameBoard{
+    width: 1040px;
+    height: 780px;
+}
+
+.ToolBar{
+    height:100%;
+    overflow-x:hidden;
+    background-color: #111;
+    width:200px;
+    padding-top:50px;
+    float:right;
+    /*visibility:hidden;*/
+}
+
+.ToolBarButton{
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 26px;
+    text-align: center;
+}
+.ToolBarButton img{
+    width: 54px;
+    height: 59px;
+    padding-top: 7px;
+}
+.ToolBarButton p {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.dirt{
+    background-image: url('./images/Dirt.png');
+    background-size:cover;
+}
+.grass{
+    background-image: url('./images/Grass.png');
+    background-size:cover;
+}
+.tree{
+    background-image: url('./images/Tree.png');
+}
+.clouds{
+    background-color:white;
+}
+.Leaves{
+    background-image: url('./images/Leaves.png')
+}
+.Rocks{
+    background-image: url('./images/Rock.png')
+}
+#Storage {
+    background-size: contain;
+}

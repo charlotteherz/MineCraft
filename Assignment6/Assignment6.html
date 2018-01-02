@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Assignment6.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div id="ToolBar" class="ToolBar">
+            <div class="ToolBarButton" id="Shovel"><img src = "./images/Shovel.png"><p>Shovel</p></div>
+            <div class = "ToolBarButton" id = "Pickaxe"><img src = "./images/Pickaxe.png"><p>Pickaxe</p></div>
+            <div class = "ToolBarButton" id = "Axe"><img src = "./images/Axe.png"><p>Axe</p></div>
+            <div class = "ToolBarButton" id = "Storage"></div>
+        </div>
+
+        <!--modal for first page -->
+        <div class="modal fade bd-example-modal-sm" id="modal">
+            <div class="modal-dialog modal-lg text-center">
+                <div class="btnlp">
+                    <button class="btn" id="startBtn">Start Game</button>
+                    <button class="btn" id="instructionBtn">Instruction</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for instructions-->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Instruction</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to MineCraft!</p>
+                        <p>In this game you are able to three things:-</p>
+                        <p>1.Pick a shovel if you wanna dig</p>
+                        <p>2.Pick an axe to collect wood</p>
+                        <P>3.Use the Pickaxe to select stones and build with them.</p>
+                        <p>Lets go and create your world...</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" id="returnMainPage">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="Assignment6.js"></script>
+    </body>
+</html>
